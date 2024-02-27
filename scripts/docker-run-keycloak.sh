@@ -1,0 +1,1 @@
+docker run --name keycloak -p 8000:8000 --detach -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:latest start-dev
